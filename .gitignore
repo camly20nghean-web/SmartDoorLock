@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment & secrets
+.env
+*.local
+
+# Database & SQLite files
+*.db
+*.sqlite3
+
+# Biometric datasets, embeddings, snapshots, and model weights
+data/
+snapshots/
+weights/
+*.npy
+*.npz
+*.onnx
+*.pt
+*.pth
+*.pkl
+*.pickle
+
+# Log files
+*.log
+
+# IDE & Editor settings
+.vscode/
+.idea/
+
+# OS artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Additional local artifacts
+.venv_old/
+.pytest_cache/
+*.sqlite
+*.sqlite3-*
+*.db-*
